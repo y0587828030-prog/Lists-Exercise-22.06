@@ -11,8 +11,4 @@ print(agents[2])
 #stap 4
 print(agents[1:4])
 
-#stap 5
-agents.append("Foxtrot")
-print(agents)
-
 

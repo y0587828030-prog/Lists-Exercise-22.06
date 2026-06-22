@@ -28,8 +28,8 @@ print(agents)
 print(len(agents))
 
 #stap 9
-Define_scores = [42, 17, 95, 8, 61]
-print(max(Define_scores),min(Define_scores))
+scores = [42, 17, 95, 8, 61]
+print(max(scores),min(scores))
 
 #stap 10
 copy_agents =agents.copy()
@@ -41,14 +41,14 @@ print(agents)
 ##Part 2 — Optional Advanced Basics
 
 #stap 1
-Define_numbers = [3, 1, 4, 1, 5, 9, 2, 6]
-Define_numbers.sort()
-print(Define_numbers)
+numbers = [3, 1, 4, 1, 5, 9, 2, 6]
+numbers.sort()
+print(numbers)
 
-Define_numbers2 = [3, 1, 4, 1, 5, 9, 2, 6]
-print(Define_numbers2)
-Define_numbers2= sorted(Define_numbers2)
-print(Define_numbers2)
+numbers2 = [3, 1, 4, 1, 5, 9, 2, 6]
+print(numbers2)
+numbers2= sorted(numbers2)
+print(numbers2)
 
 #stap 2
 a = [1, 2, 3]
@@ -56,3 +56,13 @@ b = [4, 5, 6]
 print(a+b)
 a.extend(b)
 print(a)
+
+#stap 3
+items = ['x', 'y', 'z', 'x', 'y', 'x']
+# x_count = items.count('x')
+x = items.count("x")
+print(x)
+items.remove("x")
+items.remove("x")
+items.remove("x")
+print(items)

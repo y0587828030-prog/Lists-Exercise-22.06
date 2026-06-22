@@ -30,3 +30,9 @@ print(len(agents))
 #stap 9
 Define_scores = [42, 17, 95, 8, 61]
 print(max(Define_scores),min(Define_scores))
+
+#stap 10
+copy_agents =agents.copy()
+print(agents)
+agents[0]="yehosh"
+print(agents)

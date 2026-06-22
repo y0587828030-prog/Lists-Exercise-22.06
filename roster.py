@@ -36,3 +36,16 @@ copy_agents =agents.copy()
 print(agents)
 agents[0]="yehosh"
 print(agents)
+
+
+##Part 2 — Optional Advanced Basics
+
+#stap 1
+Define_numbers = [3, 1, 4, 1, 5, 9, 2, 6]
+Define_numbers.sort()
+print(Define_numbers)
+
+Define_numbers2 = [3, 1, 4, 1, 5, 9, 2, 6]
+print(Define_numbers2)
+Define_numbers2= sorted(Define_numbers2)
+print(Define_numbers2)

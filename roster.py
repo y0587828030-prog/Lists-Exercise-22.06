@@ -16,5 +16,14 @@ agents.append("Foxtrot")
 print(agents)
 
 #stap 6
-agents.insert(2, "zulu")
+agents.insert(2, "Zulu")
 print(agents)
+
+
+# #stap 7
+agents.remove("Bravo")
+print(agents)
+
+#אtas
+print(len(agents))
+ 

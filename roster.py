@@ -1,3 +1,18 @@
+#stap 1
 agents = ['Alpha', 'Bravo', 'Charlie', 'Delta', 'Echo']
 print(agents)
-print(agents[0],agents[-1])
+
+#stap 2
+print(agents[0],agents[-1]) #
+
+#stap 3
+print(agents[2])
+
+#stap 4
+print(agents[1:4])
+
+#stap 5
+agents.append("Foxtrot")
+print(agents)
+
+

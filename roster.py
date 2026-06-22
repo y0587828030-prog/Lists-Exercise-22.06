@@ -27,3 +27,6 @@ print(agents)
 #stap 8
 print(len(agents))
 
+#stap 9
+Define_scores = [42, 17, 95, 8, 61]
+print(max(Define_scores),min(Define_scores))

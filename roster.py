@@ -66,3 +66,7 @@ items.remove("x")
 items.remove("x")
 items.remove("x")
 print(items)
+
+#stap 4
+data = [1, 2, 3, 4, 5]
+print(data[0::1 ])

@@ -49,3 +49,10 @@ Define_numbers2 = [3, 1, 4, 1, 5, 9, 2, 6]
 print(Define_numbers2)
 Define_numbers2= sorted(Define_numbers2)
 print(Define_numbers2)
+
+#stap 2
+a = [1, 2, 3]
+b = [4, 5, 6]
+print(a+b)
+a.extend(b)
+print(a)

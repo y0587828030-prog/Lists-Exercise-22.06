@@ -24,6 +24,6 @@ print(agents)
 agents.remove("Bravo")
 print(agents)
 
-#אtas
+#stap 8
 print(len(agents))
- 
+
